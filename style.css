@@ -1,0 +1,68 @@
+body
+{
+	background-color: #000000;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #BBBBBB;
+}
+div.main
+{
+	background-color: #000000;
+	padding: 1px;
+	border: 1px solid;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	color: #BBBBBB;
+	overflow: auto;
+}
+div.customEpisodes
+{
+	border-top: 1px solid;
+	border-color: #333333;
+	paddin: 3px;
+}
+div.comingSoonEpisode
+{
+	padding: 1px;
+	border-left: 1px solid;
+	border-color: #333333;
+	width: 50%;
+	height: 100%;
+	float: right;
+	color: #FFFFFF;
+}
+div.latestEpisodes
+{
+	border-top: 1px solid;
+	border-color: #333333;
+	padding: 3px;
+	width: 49%;
+	float: left;
+}
+div.episode
+{
+	float: left;
+}
+div.episode-details
+{
+	float: right;
+}
+div.settings
+{
+}
+p
+{
+	margin-left: 15px;
+}
+a
+{
+	color: #CCCCCC;
+}
+a:visited
+{
+	color: #555555;
+}
