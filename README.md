@@ -22,3 +22,5 @@ extend buffers on nginx
         fastcgi_buffers 16 16k;
         
         fastcgi_buffer_size 32k;
+
+![alt text](Capture.png)
