@@ -23,4 +23,5 @@ extend buffers on nginx
         
         fastcgi_buffer_size 32k;
 
-![picture](https://github.com/trite2k3/Animerush-Crawler/blob/master/Capture.PNG)
+Picture of minimal.php:
+![Picture of minimal.php](https://github.com/trite2k3/Animerush-Crawler/blob/master/Capture.PNG)
