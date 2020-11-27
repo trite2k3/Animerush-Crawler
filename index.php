@@ -86,9 +86,10 @@ function dateCountdownCrawler($dom,$xpath,$filterVar,$i,$comingSoonEpisode)
 			//Trim result from unnecessary characters that we do not want "href=" and """
 			$htmlString2trimhref = str_replace('href=', "", $htmlString2);
 			$htmlString2trimquote = str_replace('"', "", $htmlString2trimhref);
-			$htmlString3 = trim($htmlString2trimquote);
+			$htmlString2trimslash = substr($htmlString2trimquote, 3);
+			$htmlString3 = trim($htmlString2trimslash);
 			//Get entire file into string
-			$html3 = file_get_contents($htmlString3);
+			$html3 = file_get_contents("https://" . $htmlString3);
 			//Create new DOM Object with newly created HTML-string
 			$dom3 = new DOMDocument();
 			@$dom3->loadHTML($html3);
