@@ -7,9 +7,18 @@ Pulls latest anime episodes of your choice from animerush.tv and display them wi
 
 
 get it working on debian 10
+
+
 apt install nginx php-fpm
+
+
 change php.ini to enable
+
         ";extension=openssl"
+        
+        
 extend buffers on nginx
+
         fastcgi_buffers 16 16k;
+        
         fastcgi_buffer_size 32k;
